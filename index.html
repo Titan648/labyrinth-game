@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labyrinth Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Labyrinth Game</h1>
+    <div class="info">
+      <div class="timer">Time: <span id="time">0</span>s</div>
+      <div class="level">Level: <span id="level">1</span></div>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <canvas id="gameCanvas" width="600" height="600"></canvas>
+    <div class="controls">
+      <p>Use Arrow Keys or WASD to move</p>
+      <p>Reach the green goal to win!</p>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
